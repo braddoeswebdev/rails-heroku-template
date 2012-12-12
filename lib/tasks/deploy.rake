@@ -5,6 +5,7 @@ task deploy: [:environment, 'assets:precompile'] do
 	puts `mkdir -p #{assetPath}`
 	puts `cp -r public/* #{assetPath}`
 	puts `rake assets:clean`
+	puts `mkdir public`
 	puts `cp #{assetPath}/manifest.yml public/`
 	puts `git add .`
 	puts `git commit -m "pushing to heroku"`
