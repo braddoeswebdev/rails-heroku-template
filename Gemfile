@@ -15,8 +15,8 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  gem 'therubyracer', :platforms => :ruby
-  gem 'libv8'
+  #gem 'therubyracer', :platforms => :ruby
+  #gem 'libv8'
 
   gem 'uglifier', '>= 1.0.3'
 end
