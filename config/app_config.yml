@@ -1,0 +1,5 @@
+development:
+  remote_assets: false
+
+production:
+  remote_assets: true
